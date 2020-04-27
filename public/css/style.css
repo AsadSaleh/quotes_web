@@ -1,0 +1,45 @@
+body {
+  /* background: plum; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.14);
+  font-size: 18px;
+}
+
+button {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+#delete-button {
+  background: red;
+  color: white;
+}
+
+button[type="submit"] {
+  background: seagreen;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 10px auto;
+}
